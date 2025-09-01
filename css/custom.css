@@ -1,0 +1,21 @@
+/* —— 隐藏版权区的“本文链接/网页地址” —— */
+
+/* 现代浏览器优先：命中含本站链接的那一行（把域名换成你的自定义域名时记得改） */
+.license-box .license-title > div:has(a[href^="https://kongqueqq.github.io"]) {
+  display: none !important;
+}
+
+/* 兜底：第二行就是“本文链接”，强制隐藏 */
+.license-box .license-title > div:nth-child(2) {
+  display: none !important;
+}
+
+/* 兼容其他版本的类名 */
+.post-copyright .copyright-item.copyright-link,
+.post-copyright .copyright-link,
+.post-copyright .post-copyright-link,
+.post-copyright [data-type="link"],
+.post-copyright .item-name .iconfont.icon-link,
+.post-copyright .item-name .icon-link {
+  display: none !important;
+}

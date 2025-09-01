@@ -1,0 +1,8 @@
+/* 隐藏版权区里的“本文链接/网页地址”这一行（兼容多个版本的类名） */
+.post-copyright .copyright-item.copyright-link,
+.post-copyright .post-copyright-link,
+.post-copyright .post-copyright__link,
+.post-copyright [data-type="link"] {
+  display: none !important;
+}
+
